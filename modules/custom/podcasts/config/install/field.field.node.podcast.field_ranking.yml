@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ranking
+    - node.type.podcast
+id: node.podcast.field_ranking
+field_name: field_ranking
+entity_type: node
+bundle: podcast
+label: Ranking
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

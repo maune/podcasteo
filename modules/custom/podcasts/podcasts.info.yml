@@ -1,0 +1,16 @@
+name: Podcasts
+type: module
+core: 8.x
+dependencies:
+  - better_exposed_filters
+  - field
+  - language
+  - link
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user
+  - views
+version: '8.x-1.0, 8.x-1.0-beta1'

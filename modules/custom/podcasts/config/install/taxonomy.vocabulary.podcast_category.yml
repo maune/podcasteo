@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Podcast category'
+vid: podcast_category
+description: 'Category the podcast belongs to.'
+hierarchy: 0
+weight: 0

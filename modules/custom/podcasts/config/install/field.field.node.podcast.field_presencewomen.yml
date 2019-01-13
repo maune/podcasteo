@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_presencewomen
+    - node.type.podcast
+id: node.podcast.field_presencewomen
+field_name: field_presencewomen
+entity_type: node
+bundle: podcast
+label: Women
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Oui
+  off_label: Non
+field_type: boolean

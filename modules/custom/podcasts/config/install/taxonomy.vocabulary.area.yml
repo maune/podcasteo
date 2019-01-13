@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: Area
+vid: area
+description: 'Area where the podcast may be located'
+hierarchy: 0
+weight: 0

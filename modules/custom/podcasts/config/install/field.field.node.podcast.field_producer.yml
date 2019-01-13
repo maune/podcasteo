@@ -1,0 +1,28 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_producer
+    - node.type.podcast
+    - taxonomy.vocabulary.producer
+id: node.podcast.field_producer
+field_name: field_producer
+entity_type: node
+bundle: podcast
+label: Producer
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      producer: producer
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: podcast_category
+field_type: entity_reference

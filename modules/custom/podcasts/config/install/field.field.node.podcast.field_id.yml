@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_id
+    - node.type.podcast
+id: node.podcast.field_id
+field_name: field_id
+entity_type: node
+bundle: podcast
+label: id
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

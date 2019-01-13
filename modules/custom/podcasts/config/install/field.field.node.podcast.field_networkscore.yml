@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_networkscore
+    - node.type.podcast
+id: node.podcast.field_networkscore
+field_name: field_networkscore
+entity_type: node
+bundle: podcast
+label: 'Network score'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

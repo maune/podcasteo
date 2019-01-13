@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.podcast_category
+id: taxonomy_term.podcast_category
+target_entity_type_id: taxonomy_term
+target_bundle: podcast_category
+default_langcode: site_default
+language_alterable: false

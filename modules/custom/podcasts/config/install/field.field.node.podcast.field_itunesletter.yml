@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_itunesletter
+    - node.type.podcast
+id: node.podcast.field_itunesletter
+field_name: field_itunesletter
+entity_type: node
+bundle: podcast
+label: 'Itunes letter'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linktwitter
+    - node.type.podcast
+  module:
+    - link
+id: node.podcast.field_linktwitter
+field_name: field_linktwitter
+entity_type: node
+bundle: podcast
+label: 'Twitter link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link
